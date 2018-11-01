@@ -42,21 +42,9 @@ body {
 
 
 .content {
-  width: calc(100% - 24px);
-  padding: 12px;
-  height: calc(100% - 72px - 24px - 24px);
-  -webkit-overflow-scrolling: touch;
-  overflow: auto;
-}
-
-.content > div {
-  max-width: calc(350px * 2 + 24px * 4);
-  width: calc(100% - 24px);
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 12px;
-  margin-bottom: 12px;
-  text-align: center;
 }
 
 
@@ -68,7 +56,6 @@ body {
 .about img {
   float: right;
   width: calc(50% - 12px);
-  border-radius: 50%;
 }
 
 
