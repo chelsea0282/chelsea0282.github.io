@@ -22,48 +22,27 @@ function buildPost(post) {
 
   var imgElement = document.createElement("div");
   imgElement.className = "post-image";
+  var image = document.createElement("img");
+  image.src = post.image;
+  imgElement.appendChild(image);
 
   var titleElement = document.createElement("div");
   titleElement.className = "post-title";
+  titleElement.innerHTML = post.title;
 
   var shortElement = document.createElement("div");
   shortElement.className = "post-short";
+  shortElement.innerHTML = post.description;
 
-  var contentElement = document.createElement("div");
-  contentElement.className = "post-content";
-
-  var req = new XMLHttpRequest();
-  req.open("GET", "posts/" + post.file, true);
-  req.addEventListener("load", () => {
-    var postDetails = parsePost(req.responseText);
-    titleElement.innerHTML = postDetails.title;
-    var image = document.createElement("img");
-    image.src = postDetails.image;
-    imgElement.appendChild(image);
-    shortElement.innerHTML = postDetails.short;
-    contentElement.innerHTML = postDetails.content;
-
-    postElement.addEventListener("click", () => {
-      postElement.classList.add("expanded");
-    });
-    imgElement.addEventListener("click", () => {
-      if (postElement.classList.contains("expanded")) {
-        location.assign(postDetails.link);
-      }
-    });
-    contentElement.addEventListener("click", (e) => {
-      if (postElement.classList.contains("expanded")) {
-        postElement.classList.remove("expanded");
-        e.stopPropagation();
-      }
-    });
+  postElement.addEventListener("click", () => {
+    if (post.link) {
+      location.assign(post.link);
+    }
   });
-  req.send();
 
   postElement.appendChild(imgElement);
   postElement.appendChild(titleElement);
   postElement.appendChild(shortElement);
-  postElement.appendChild(contentElement);
 
   return postElement;
 }
@@ -74,18 +53,22 @@ function loadPosts(current_post) {
   req.addEventListener("load", () => {
     try {
       var posts = JSON.parse(req.responseText);
-      // show all posts
+      // Show all posts
+      var workContainer = document.querySelector(".work");
       var blogContainer = document.querySelector(".blog");
       for (var i = 0; i < posts.length; i++) {
         var postElement = buildPost(posts[i]);
-        blogContainer.appendChild(postElement);
-        if (current_post == posts[i].file.substring(posts[i].file.lastIndexOf("."))) {
-          postElement.classList.add("expanded");
+        if (posts[i].label === "work") {
+          workContainer.appendChild(postElement);
+        }
+        else {
+          blogContainer.appendChild(postElement);
         }
       }
     } catch (e) {
       document.querySelector(".work .error").style.display = "block";
-      console.log(e);
+      document.querySelector(".blog .error").style.display = "block";
+      console.error(e);
     }
   });
   req.send();

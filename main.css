@@ -73,18 +73,22 @@ body {
 }
 
 
+.work {
+  text-align: center;
+}
+
 .blog {
   text-align: center;
 }
 
-.blog .error {
+.error {
   display: none;
 }
 
 
 .post {
   display: inline-block;
-  width: 350px;
+  max-width: 320px;
   margin: 24px;
   cursor: pointer;
   transition: width ease-in .2s;
