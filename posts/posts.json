@@ -9,7 +9,7 @@
   {
     "title": "Da Vinci Robotics",
     "image": "posts/images/da_vinci.png",
-    "link": "https://medium.com/@chelsea0282/case-study-on-facebook-events-stories-5eb2cb24b3d9",
+    "link": "http://www.davinci-labs.tw/Index",
     "description": "Product intern",
     "label": "experience"
   },
@@ -30,28 +30,28 @@
   {
     "title": "Venmo Case Study",
     "image": "posts/images/venmo.png",
-    "link": "",
+    "link": "https://medium.com/@chelsea0282/introdpd-pre-test-sh792-seungyeon-chelsea-han-8843541384b",
     "description": "Splitting bills efficiently",
     "label": "experience"
   },
   {
     "title": "Cornell Cup R2D2",
     "image": "posts/images/cornell_cup_r2d2.jpg",
-    "link": "http://marsrover.engineering.cornell.edu/",
+    "link": "http://cornellcuprobotics.com/",
     "description": "Electrical and business subteam",
     "label": "experience"
   },
   {
     "title": "Cornell Cup Piano",
     "image": "posts/images/cornell_cup_piano.png",
-    "link": "http://marsrover.engineering.cornell.edu/",
+    "link": "http://cornellcuprobotics.com/",
     "description": "Electrical and business subteam",
     "label": "experience"
   },
   {
     "title": "MyLib",
     "image": "posts/images/mylib.png",
-    "link": "https://medium.com/@chelsea0282/case-study-on-facebook-events-stories-5eb2cb24b3d9",
+    "link": "https://github.com/chelsea0282/MyLib",
     "description": "Facebook Event Stories",
     "label": "portfolio"
   },
@@ -59,7 +59,7 @@
     "title": "Coloring Board",
     "image": "posts/images/coloring_board.png",
     "link": "https://youtu.be/rwbFn73PE2Q",
-    "description": "This is a short description about Coloring Board.",
+    "description": "ECE 3140 Final Project",
     "label": "portfolio"
   }
 ]
