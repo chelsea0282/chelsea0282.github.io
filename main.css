@@ -26,18 +26,17 @@ body {
 }
 
 .logo {
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .nav .entry {
   display: inline-block;
-  padding: 20px;
-  color: black;
+  padding: 10px;
 }
 
 .nav a {
   text-decoration: none;
-  color: black;
+  color: grey;
 }
 
 
