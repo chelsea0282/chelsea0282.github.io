@@ -54,12 +54,16 @@ function loadPosts(current_post) {
     try {
       var posts = JSON.parse(req.responseText);
       // Show all posts
-      var workContainer = document.querySelector(".work");
+      var experienceContainer = document.querySelector(".experience");
+      var portfolioContainer = document.querySelector(".portfolio");
       var blogContainer = document.querySelector(".blog");
       for (var i = 0; i < posts.length; i++) {
         var postElement = buildPost(posts[i]);
-        if (posts[i].label === "work") {
-          workContainer.appendChild(postElement);
+        if (posts[i].label === "experience") {
+          experienceContainer.appendChild(postElement);
+        }
+        else if (posts[i].label === "portfolio") {
+          portfolioContainer.appendChild(postElement);
         }
         else {
           blogContainer.appendChild(postElement);

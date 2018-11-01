@@ -1,25 +1,44 @@
 [
   {
     "title": "Bank of America, Cybersecurity",
-    "date": "2018-08-23",
-    "image": "posts/images/boa.jpg",
-    "description": "This is a short description about Bank of America.",
-    "label": "work"
+    "image": "posts/images/bank_of_america.png",
+    "link": "",
+    "description": "Cybersecurity intern",
+    "label": "experience"
+  },
+  {
+    "title": "Da Vinci Robotics",
+    "image": "posts/images/da_vinci.png",
+    "link": "https://medium.com/@chelsea0282/case-study-on-facebook-events-stories-5eb2cb24b3d9",
+    "description": "Product intern",
+    "label": "experience"
+  },
+  {
+    "title": "Cornell Mars Rover",
+    "image": "posts/images/cmr.png",
+    "link": "http://marsrover.engineering.cornell.edu/",
+    "description": "Electrical and business subteam",
+    "label": "experience"
+  },
+  {
+    "title": "Venmo Case Study",
+    "image": "posts/images/venmo.png",
+    "link": "",
+    "description": "Splitting bills efficiently",
+    "label": "portfolio"
+  },
+  {
+    "title": "Facebook Case Study",
+    "image": "posts/images/case_study.png",
+    "link": "https://medium.com/@chelsea0282/case-study-on-facebook-events-stories-5eb2cb24b3d9",
+    "description": "Facebook Event Stories",
+    "label": "portfolio"
   },
   {
     "title": "Coloring Board",
-    "date": "2018-08-23",
-    "image": "posts/images/boa.jpg",
-    "link": "https://medium.com/@chelsea0282/case-study-on-facebook-events-stories-5eb2cb24b3d9",
-    "description": "This is a short description about Coloring Board.",
-    "label": "work"
-  },
-  {
-    "title": "Case Study",
-    "date": "2018-08-23",
-    "image": "posts/images/coloring_board.jpg",
+    "image": "posts/images/coloring_board.png",
     "link": "https://youtu.be/rwbFn73PE2Q",
-    "description": "This is a short description about Case Study FB.",
-    "label": "work"
+    "description": "This is a short description about Coloring Board.",
+    "label": "portfolio"
   }
 ]
