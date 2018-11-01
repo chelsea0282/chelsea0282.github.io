@@ -7,6 +7,11 @@
     <!-- icon that shows up on the tab 'CH' -->
     <link rel="icon" type="image/png" href="favicon.png" />
     <link rel="stylesheet" type="text/css" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300|Nunito+Sans" rel="stylesheet">
+      <!-- font-family: 'Nunito Sans', sans-serif;
+           font-family: 'Montserrat', sans-serif; -->
+
 
     <!-- main js file handles projects -->
     <script type="text/javascript" src="main.js"></script>
@@ -44,35 +49,34 @@
   </head>
   <body>
     <div class="topbar">
+      
       <div class="logo">
         <a href="/#" onclick="javascript: showPage('#');">
             SEUNGYEON CHELSEA HAN
         </a>
       </div>
+
       <div class="nav">
-        Work 
-        About 
-        Blog 
-      </div>
+          <div class="entry">
+            <a href="/#" onclick="javascript: showPage('#');">
+              Work
+            </a>
+          </div>
+          <div class="entry">
+            <a href="/#about" onclick="javascript: showPage('#about'); showMenu();">
+              About
+            </a>
+          </div>
+          <div class="entry">
+              <a href="/#blog" onclick="javascript: showPage('#blog'); showMenu();">
+                Blog
+              </a>
+            </div>
+        </div>
+        
     </div>
 
-    <div class="nav">
-      <div class="entry">
-        <a href="/#" onclick="javascript: showPage('#');">
-          Work
-        </a>
-      </div>
-      <div class="entry">
-        <a href="/#about" onclick="javascript: showPage('#about'); showMenu();">
-          About
-        </a>
-      </div>
-      <div class="entry">
-          <a href="/#blog" onclick="javascript: showPage('#blog'); showMenu();">
-            Blog
-          </a>
-        </div>
-    </div>
+    
 
     <div class="content">
       
@@ -84,7 +88,6 @@
             </div>
             <div class="spacer"></div>
             <div class="error">Error retrieving posts. Please try again later.</div>
-          </div>
         </div>
 
       <div class="about">
@@ -102,6 +105,7 @@
       <div class="blog">
         <div>
           This is where my blog posts will be.
+        </div>
       </div>
     </div>
 

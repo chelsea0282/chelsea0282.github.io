@@ -84,7 +84,8 @@ function loadPosts(current_post) {
         }
       }
     } catch (e) {
-      document.querySelector(".blog .error").style.display = "block";
+      document.querySelector(".work .error").style.display = "block";
+      console.log(e);
     }
   });
   req.send();
