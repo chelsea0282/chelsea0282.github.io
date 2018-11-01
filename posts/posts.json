@@ -1,17 +1,25 @@
 [
   {
-    "file": "bank_of_america.txt",
+    "title": "Bank of America, Cybersecurity",
     "date": "2018-08-23",
-    "labels": "work"
+    "image": "posts/images/boa.jpg",
+    "description": "This is a short description about Bank of America.",
+    "label": "work"
   },
   {
-    "file": "coloring_board.txt",
+    "title": "Coloring Board",
     "date": "2018-08-23",
-    "labels": "ece"
+    "image": "posts/images/boa.jpg",
+    "link": "https://medium.com/@chelsea0282/case-study-on-facebook-events-stories-5eb2cb24b3d9",
+    "description": "This is a short description about Coloring Board.",
+    "label": "work"
   },
   {
-    "file": "case_study_fb.txt",
+    "title": "Case Study",
     "date": "2018-08-23",
-    "labels": "case-study"
+    "image": "posts/images/coloring_board.jpg",
+    "link": "https://youtu.be/rwbFn73PE2Q",
+    "description": "This is a short description about Case Study FB.",
+    "label": "work"
   }
 ]

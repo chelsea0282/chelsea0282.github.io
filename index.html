@@ -20,20 +20,20 @@
       function showPage(page) {
         // # = anchor link jumps down to the page
         //"" = query
-        if (page === "" || page === "#") {
-          document.querySelector(".about").hidden = true;
-          document.querySelector(".blog").hidden = true;
-          document.querySelector(".work").hidden = false;
+        if (page === "#about") {
+          document.querySelector(".about").style.display = "block";
+          document.querySelector(".blog").style.display = "none";
+          document.querySelector(".work").style.display = "none";
         }
-        else if (page == "#blog"){
-          document.querySelector(".about").hidden = true;
-          document.querySelector(".blog").hidden = false;
-          document.querySelector(".work").hidden = true;
+        else if (page === "#blog") {
+          document.querySelector(".about").style.display = "none";
+          document.querySelector(".blog").style.display = "block";
+          document.querySelector(".work").style.display = "none";
         }
         else {
-          document.querySelector(".about").hidden = false;
-          document.querySelector(".blog").hidden = true;
-          document.querySelector(".work").hidden = true;
+          document.querySelector(".about").style.display = "none";
+          document.querySelector(".blog").style.display = "none";
+          document.querySelector(".work").style.display = "block";
         }
       }
 
@@ -48,55 +48,58 @@
     </script>
   </head>
   <body>
+
+    <div class="topwrapper">
+
     <div class="topbar">
-      
+
       <div class="logo">
         <a href="/#" onclick="javascript: showPage('#');">
-            SEUNGYEON CHELSEA HAN
+          <img src="pictures/logo2.png" />
         </a>
       </div>
 
       <div class="nav">
-          <div class="entry">
-            <a href="/#" onclick="javascript: showPage('#');">
-              Work
-            </a>
-          </div>
-          <div class="entry">
-            <a href="/#about" onclick="javascript: showPage('#about'); showMenu();">
-              About
-            </a>
-          </div>
-          <div class="entry">
-              <a href="/#blog" onclick="javascript: showPage('#blog'); showMenu();">
-                Blog
-              </a>
-            </div>
+        <div class="entry">
+          <a href="/#" onclick="javascript: showPage('#');">
+            WORK
+          </a>
         </div>
+        <div class="entry">
+          <a href="/#about" onclick="javascript: showPage('#about'); showMenu();">
+            ABOUT
+          </a>
+        </div>
+        <div class="entry">
+          <a href="/#blog" onclick="javascript: showPage('#blog'); showMenu();">
+            BLOG
+          </a>
+        </div>
+      </div>
 
     </div>
 
-    
-
     <div class="content">
-      
-        <div class="work">
-            <div>
-              Hello, my name is Chelsea and I'm an aspiring Product Manager.
-              <br />
-              Check out my recent projects and passion!
-            </div>
-            <div class="spacer"></div>
-            <div class="error">Error retrieving posts. Please try again later.</div>
+
+      <div class="work">
+        <div>
+          Hello, my name is Chelsea and I'm an aspiring Product Manager.
+          <br />
+          Check out my recent projects and passion!
         </div>
+        <div class="spacer"></div>
+        <div class="error">Error retrieving posts. Please try again later.</div>
+      </div>
+
+      <div class="clear"></div>
 
       <div class="about">
         <div>
-          Hi there! I'm a junior attending Cornell Univesity studying Infomation Science, Systems, and Technology and Computer Science. 
+          Hi there! I'm a junior attending Cornell Univesity studying Infomation Science, Systems, and Technology and Computer Science.
           My professional passion lies in customer-oriented product management which was shaped by my previous internships that had heavy product ownership (check them out in the 'work' section).
-          
+
           <br /><br />
-          
+
           Outside intersts and passions is ART-ing and creating - music, illustrations, comics, watercolors, crocheting, origami, etc.
 
           <br /><br />
@@ -112,15 +115,32 @@
         <div>
           This is where my blog posts will be.
         </div>
+        <div class="spacer"></div>
+        <div class="error">Error retrieving posts. Please try again later.</div>
       </div>
+
+    </div>
+
     </div>
 
     <div class="bottombar">
+
       <div class="social">
-        <a href = "https://www.instagram.com/chelsea0282/?hl=en"> 
-        <img src = "favicon.png" width = "100" height = "100"> 
+        <a href="https://github.com/chelsea0282b">
+          <img src="pictures/icon_github.png" />
+        </a>
+        <a href="https://medium.com/@chelsea0282">
+          <img src="pictures/icon_medium.png" />
+        </a>
+        <a href="https://www.linkedin.com/in/seungyeon-chelsea-han">
+          <img src="pictures/icon_linkedin.png" />
+        </a>
+        <a href="mailto:sh792@cornell.edu">
+          <img src="pictures/icon_email.png" />
         </a>
       </div>
+
     </div>
+
   </body>
 </html>

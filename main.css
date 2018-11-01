@@ -6,11 +6,19 @@
   height: 36px;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
+}
+
+.topwrapper {
+  min-height: calc(100% - 64px);
 }
 
 .topbar {
@@ -20,30 +28,37 @@ body {
   /*outline: 1px solid rgb(199, 199, 199);*/
 }
 
-.logo a {
-  text-decoration: none;
-  color: black;
-}
-
 .logo {
   font-size: 50px;
+  margin-bottom: 16px;
+}
+
+.logo img {
+  max-width: 800px;
+  width: 100%;
 }
 
 .nav .entry {
   display: inline-block;
-  padding: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .nav a {
-  text-decoration: none;
   color: grey;
+  font-size: 12px;
 }
 
 
 .content {
-  max-width: 1000px;
+  max-width: 960px;
   margin-left: auto;
   margin-right: auto;
+  padding: 12px;
+}
+
+.content > div {
+  display: none;
 }
 
 
@@ -58,17 +73,22 @@ body {
 }
 
 
+.work {
+  text-align: center;
+}
+
 .blog {
   text-align: center;
 }
 
-.blog .error {
+.error {
   display: none;
 }
 
+
 .post {
   display: inline-block;
-  width: 350px;
+  max-width: 320px;
   margin: 24px;
   cursor: pointer;
   transition: width ease-in .2s;
@@ -132,4 +152,20 @@ body {
 
 .post .clear {
   height: 12px;
+}
+
+
+.bottombar {
+  height: 64px;
+}
+
+.social {
+  text-align: center;
+}
+
+.social img {
+  width: 24px;
+  height: 24px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
