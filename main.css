@@ -88,27 +88,16 @@ body {
 
 .post {
   display: inline-block;
-  max-width: 320px;
-  margin: 24px;
+  max-width: calc(320px - 2 * 20px);
+  margin: 20px;
   cursor: pointer;
-  transition: width ease-in .2s;
-}
-
-.post .post-image {
-  float: left;
-  width: 350px;
-  max-width: 350px;
-  transition: max-width ease-in .2s;
 }
 
 .post .post-image img {
   width: 100%;
-  border-radius: 20%;
 }
 
 .post .post-title {
-  float: left;
-  width: 350px;
   margin-top: 12px;
   margin-bottom: 12px;
   text-align: center;
@@ -116,14 +105,6 @@ body {
 }
 
 .post .post-short {
-  float: left;
-  width: 350px;
-}
-
-.post .post-content {
-  display: none;
-  width: 350px;
-  float: left;
   text-align: left;
 }
 
@@ -142,11 +123,6 @@ body {
 }
 
 .post.expanded .post-title {
-  max-width: calc(50% - 24px);
-}
-
-.post.expanded .post-content {
-  display: inline-block;
   max-width: calc(50% - 24px);
 }
 
