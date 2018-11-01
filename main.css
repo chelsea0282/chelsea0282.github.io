@@ -88,9 +88,9 @@ body {
 
 
 .post-container .heading {
-  font-weight: bold;
+  font-size: 12px;
   font-family: 'Nunito Sans', sans-serif;
-  padding: 32px;
+  padding: 24px;
   color: grey;
 }
 
