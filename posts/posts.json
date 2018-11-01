@@ -14,10 +14,24 @@
     "label": "experience"
   },
   {
+    "title": "Facebook Case Study",
+    "image": "posts/images/facebook.png",
+    "link": "https://medium.com/@chelsea0282/case-study-on-facebook-events-stories-5eb2cb24b3d9",
+    "description": "Facebook Event Stories",
+    "label": "experience"
+  },
+  {
     "title": "Cornell Mars Rover",
     "image": "posts/images/cmr.png",
     "link": "http://marsrover.engineering.cornell.edu/",
     "description": "Electrical and business subteam",
+    "label": "experience"
+  },
+  {
+    "title": "Venmo Case Study",
+    "image": "posts/images/venmo.png",
+    "link": "",
+    "description": "Splitting bills efficiently",
     "label": "experience"
   },
   {
@@ -33,20 +47,6 @@
     "link": "http://marsrover.engineering.cornell.edu/",
     "description": "Electrical and business subteam",
     "label": "experience"
-  },
-  {
-    "title": "Venmo Case Study",
-    "image": "posts/images/venmo.png",
-    "link": "",
-    "description": "Splitting bills efficiently",
-    "label": "portfolio"
-  },
-  {
-    "title": "Facebook Case Study",
-    "image": "posts/images/facebook.png",
-    "link": "https://medium.com/@chelsea0282/case-study-on-facebook-events-stories-5eb2cb24b3d9",
-    "description": "Facebook Event Stories",
-    "label": "portfolio"
   },
   {
     "title": "MyLib",
