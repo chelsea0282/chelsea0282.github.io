@@ -10,7 +10,7 @@
     "title": "Da Vinci Robotics",
     "image": "posts/images/da_vinci.png",
     "link": "http://www.davinci-labs.tw/Index",
-    "description": "Product intern",
+    "description": "Chatbot Product intern",
     "label": "experience"
   },
   {
@@ -31,28 +31,28 @@
     "title": "Venmo Case Study",
     "image": "posts/images/venmo.png",
     "link": "https://medium.com/@chelsea0282/introdpd-pre-test-sh792-seungyeon-chelsea-han-8843541384b",
-    "description": "Splitting bills efficiently",
+    "description": "Efficient Bill Splitting Feature",
     "label": "experience"
   },
   {
     "title": "Cornell Cup R2D2",
     "image": "posts/images/cornell_cup_r2d2.jpg",
     "link": "http://cornellcuprobotics.com/",
-    "description": "Electrical and business subteam",
+    "description": "Electrical subteam",
     "label": "experience"
   },
   {
     "title": "Cornell Cup Piano",
     "image": "posts/images/cornell_cup_piano.png",
     "link": "http://cornellcuprobotics.com/",
-    "description": "Electrical and business subteam",
+    "description": "Electrical and System Design",
     "label": "experience"
   },
   {
     "title": "MyLib",
     "image": "posts/images/mylib.png",
     "link": "https://github.com/chelsea0282/MyLib",
-    "description": "Facebook Event Stories",
+    "description": "AppDev Hackathon Websiter",
     "label": "portfolio"
   },
   {
